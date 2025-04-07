@@ -28,7 +28,6 @@ public:
     }
 };
 
-
 // Concrete Visitor
 class ConcreteVisitor : public Visitor {
 public:
@@ -36,7 +35,6 @@ public:
         std::cout << "ConcreteVisitor visits ConcreteElement\n";
         element.operation();
     }
-
 };
 
 int main() {
